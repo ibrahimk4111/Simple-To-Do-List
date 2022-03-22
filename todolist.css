@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 400%;
+}
+
+h1 span {
+  color: orange;
+}
+
+/* -----------------form-------------- */
+.inputField div {
+  padding: 10px 0px;
+}
+
+.inputField {
+  margin: 20px;
+  position: relative;
+}
+
+form .inputField input {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.addBtn {
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 193, 86);
+  border: none;
+  padding: 10px;
+}
+
+.addBtn:hover {
+  background-color: rgb(255, 243, 222);
+}
+
+/* ----------------table------------- */
+table {
+  width: 96.85%;
+}
+
+th,
+td {
+  border-radius: 8px;
+  background-color: rgb(255, 193, 86);
+  padding: 15px;
+}
+
+.headRow {
+  display: grid;
+  grid-template-columns: 3fr 1fr 0.5fr;
+  grid-gap: 5px;
+}
+
+.headRow th {
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+/* -----table body-------- */
+.bodyRow {
+  color: black;
+  display: grid;
+  grid-template-columns: 3fr 1fr 0.5fr;
+  gap: 5px;
+  margin: 5px 0px;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+  background-color: rgb(255, 230, 210);
+  transition: 1s;
+}
+
+.bodyRow td {
+  height: auto;
+  font-size: 16px;
+}
+
+/* ---tabel close btn----- */
+.close,
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.center:hover {
+  background-color: rgb(255, 230, 210);
+}
+
+.close:hover {
+  background-color: rgb(255, 230, 210);
+}

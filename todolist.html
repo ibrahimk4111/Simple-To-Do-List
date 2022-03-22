@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todolist.css" />
+
+    <style>
+      body {
+        background: #000;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our<span> Book </span>List</h1>
+    <!-- --------------------form---------------- -->
+    <form action="#">
+      <div class="inputField">
+        <div>* Book details:</div>
+        <input type="text" name="text" id="workingDetails" required />
+      </div>
+
+      <div class="inputField">
+        <div>*Book Name:</div>
+        <input type="text" name="name" id="name" required />
+      </div>
+
+      <div class="inputField">
+        <button class="addBtn">Add in list</button>
+      </div>
+    </form>
+    <!-- ------------------table--------------- -->
+    <table class="inputField">
+      <thead>
+        <tr class="headRow">
+          <th>Book Details</th>
+          <th>Book Name</th>
+          <th>Close</th>
+        </tr>
+      </thead>
+      <!-- -------table body---------- -->
+      <tbody class="showBookList"></tbody>
+    </table>
+
+    <script src="./todolist.js"></script>
+  </body>
+</html>
